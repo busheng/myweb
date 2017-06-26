@@ -1,15 +1,13 @@
 import React from 'react'
+import AppBar from 'material-ui/AppBar';
+import Content from './components/Content'
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>
-          Hello World!12
-        </h1>
-        <h2>
-          kkou1
-        </h2>
+        <AppBar title="H1b numbers" />
+        <Content/>
       </div>
     )
   }
