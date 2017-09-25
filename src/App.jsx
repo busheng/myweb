@@ -12,6 +12,9 @@ export default class App extends React.Component {
       <div>
         <AppBar title="H1b numbers" showMenuIconButton={false} style={style}/>
         <Content/>
+        <div style={{ textAlign: 'center'}}>
+          Author: <a href='https://about.me/busheng'>Busheng Lou</a>
+        </div>  
       </div>
     )
   }
