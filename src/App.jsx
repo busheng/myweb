@@ -10,7 +10,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <AppBar title="H1b numbers" showMenuIconButton={false} style={style}/>
+        <AppBar title="H1b Chosen Probability" showMenuIconButton={false} style={style}/>
         <Content/>
         <div style={{ textAlign: 'center'}}>
           Author: <a href='https://about.me/busheng'>Busheng Lou</a>
