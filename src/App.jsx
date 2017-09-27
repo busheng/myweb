@@ -1,6 +1,7 @@
 import React from 'react'
 import AppBar from 'material-ui/AppBar';
 import Content from './components/Content';
+import ShareFoot from './components/ShareFoot';
 import RaisedButton from 'material-ui/RaisedButton';
 import SvgIcon from 'material-ui/SvgIcon';
 import IconButton from 'material-ui/IconButton';
@@ -29,7 +30,6 @@ export default class App extends React.Component {
   }
 
   render() {
-
     const cnFlagIcon = (
       <SvgIcon viewBox="0 0 320 240" >
       <g transform="matrix(.48 0 0 .48 -2.6 2.39)">
@@ -48,8 +48,8 @@ export default class App extends React.Component {
 
     const rightButtons = (
       <div>
-        <IconButton onClick={this.changeToEnglish}><Icon_Flag_US /></IconButton>
-       <IconButton onClick={this.changeToChinese}>{cnFlagIcon}</IconButton>
+        <IconButton onClick={this.changeToEnglish} tooltip="Use English"><Icon_Flag_US /></IconButton>
+       <IconButton onClick={this.changeToChinese} tooltip="使用中文">{cnFlagIcon}</IconButton>
       </div>
     );
 
@@ -72,8 +72,9 @@ export default class App extends React.Component {
           iconElementRight={rightButtons}
         />
         <Content lang={lang}/>
-        <div style={{ textAlign: 'center'}}>
-          {author}: <a href='https://about.me/busheng'>Busheng Lou</a>
+        <div>
+          <div style={{ textAlign: 'center', marginTop: 20}}><ShareFoot title={title}/></div>
+          <div style={{ textAlign: 'right', marginRight: 20, marginBottom: 20}} >{author}: <a href='https://about.me/busheng'>Busheng Lou</a></div>
         </div>  
       </div>
     )

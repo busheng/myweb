@@ -226,7 +226,7 @@ export default class Card extends React.Component {
             />
         </div>
         <ReactTooltip />
-        <div className='link'> <a href={webLink}>{text[15]}</a></div>
+        <div className='link'> <a href={webLink} target="_blank">{text[15]}</a></div>
         </Paper>
         <SkyLight 
           dialogStyles={popupStyle}
