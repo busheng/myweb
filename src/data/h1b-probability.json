@@ -1,0 +1,51 @@
+[
+  {
+  "year": 2018,
+  "regular": 65000,
+  "master": 20000,
+  "received": 199000,
+  "web": "https://www.uscis.gov/news/alerts/uscis-completes-h-1b-cap-random-selection-process-fy-2018"
+  },
+  {
+    "year": 2017,
+    "regular": 65000,
+    "master": 20000,
+    "received": 236000,
+    "web": "https://www.uscis.gov/news/alerts/uscis-completes-h-1b-cap-random-selection-process-fy-2017"
+  },
+  {
+    "year": 2016,
+    "regular": 65000,
+    "master": 20000,
+    "received": 233000,
+    "web": "https://www.uscis.gov/news/alerts/uscis-completes-h-1b-cap-random-selection-process-fy-2016"
+  },
+  {
+    "year": 2015,
+    "regular": 65000,
+    "master": 20000,
+    "received": 172500,
+    "web": "https://www.uscis.gov/news/uscis-reaches-fy-2015-h-1b-cap-0"
+  },
+    {
+    "year": 2014,
+    "regular": 65000,
+    "master": 20000,
+    "received": 124000,
+    "web": "https://www.uscis.gov/news/uscis-reaches-fy-2014-h-1b-cap"
+  },
+  {
+    "year": 2009,
+    "regular": 65000,
+    "master": 20000,
+    "received": 163000,
+    "web": "https://travel.state.gov/content/visas/en/news/uscis-releases-preliminary-number-of-fy-2009-h-1b-cap-filings-.html"
+  },
+    {
+    "year": 2008,
+    "regular": 65000,
+    "master": 20000,
+    "received": 150000,
+    "web": "https://www.uscis.gov/sites/default/files/files/pressrelease/H1BFY08Cap040307.pdf"
+  }
+]
